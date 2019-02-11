@@ -1,0 +1,29 @@
+{
+  "name": "violinist-dev/composer-lock-data",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eirik S. Morland",
+      "email": "eirik@morland.no"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Violinist\\ComposerLockData\\": "src"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": [
+      "./vendor/bin/phpunit",
+      "./vendor/bin/phpcs -p -n"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6",
+    "satooshi/php-coveralls": "^2.0",
+    "squizlabs/php_codesniffer": "^3.3"
+  }
+}
