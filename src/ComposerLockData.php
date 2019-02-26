@@ -11,6 +11,11 @@ class ComposerLockData
         $this->data = $json;
     }
 
+    public function getData()
+    {
+        return $this->data;
+    }
+
     public function getPackageData($package_name)
     {
         $lockfile_key = 'packages';
