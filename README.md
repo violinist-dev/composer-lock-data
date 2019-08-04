@@ -5,6 +5,7 @@
 [![Packagist](https://img.shields.io/packagist/dt/violinist-dev/composer-lock-data.svg?maxAge=3600)](https://packagist.org/packages/violinist-dev/composer-lock-data)
 [![Build Status](https://travis-ci.org/violinist-dev/composer-lock-data.svg?branch=master)](https://travis-ci.org/violinist-dev/composer-lock-data)
 [![Violinist enabled](https://img.shields.io/badge/violinist-enabled-brightgreen.svg)](https://violinist.io)
+[![Coverage Status](https://coveralls.io/repos/github/violinist-dev/composer-lock-data/badge.svg?branch=master)](https://coveralls.io/github/violinist-dev/composer-lock-data?branch=master)
 
 A convenience class to find things in composer.lock files.
 
