@@ -51,5 +51,4 @@ class UnitTest extends TestCase
         $data = $cdata->getData();
         $this->assertEquals('stable', $data->{"minimum-stability"});
     }
-
 }
